@@ -1,0 +1,54 @@
+ *{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image: url("stage.png");
+}
+
+#achtergrond{
+width: 1536px;
+height: 750px;
+}
+
+#duck{
+	position: absolute;
+	left: 700px;
+	top: 350px;
+	transition: 0.1s linear;
+	height: 150px;
+	width: 150px;
+}
+
+.hit > p:nth-of-type(1){
+	display: inline;
+	position: absolute;
+	top: 10px;
+	left:10px;
+}
+
+.hit > p:nth-of-type(2){
+	display: inline;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+}
+
+.miss > p:nth-of-type(1){
+	display: inline;
+	position: absolute;
+	top: 30px;
+	left: 10px;
+}
+
+.miss > p:nth-of-type(2){
+	display: inline;
+	position: absolute;
+	top: 30px;
+	left: 50px;
+}
+
+p{
+	font-size: 20px;
+}
